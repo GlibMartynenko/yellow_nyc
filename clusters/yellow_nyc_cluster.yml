@@ -1,0 +1,11 @@
+variables:
+  yellow_nyc_cluster:
+    description: "Cluster for NYC yellow data"
+    type: complex
+    default:
+      cluster_name: ""
+      spark_version: 15.4.x-scala2.12
+      node_type_id: Standard_F4
+      autoscale:
+          min_workers: 1
+          max_workers: 1
